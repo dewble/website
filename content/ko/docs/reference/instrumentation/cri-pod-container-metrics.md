@@ -23,8 +23,8 @@ description: >-
 
 ## CRI 파드 & 컨테이너 메트릭
 
-`PodAndContainerStatsFromCRI`를 활성화하면, kubelet은 호스트 시스템을 cAdvisor를 사용하여 직접 검사하는 대신
-기본 컨테이너 런타임에서 파드 및 컨테이너 통계에 대해 폴링한다.
+`PodAndContainerStatsFromCRI`를 활성화하면, kubelet은 호스트 시스템을 cAdvisor를 사용하여
+직접 검사하는 대신 기본 컨테이너 런타임에서 파드 및 컨테이너 통계에 대해 폴링한다.
 이 정보를 cAdvisor로 직접 수집하는 대신
 컨테이너 런타임에 의존하는 것의 이점은 다음과 같다.
 
